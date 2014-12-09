@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/xxhash/xxhash.c
+xxhash.h
+/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/xxhash/xxhash.h
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/xxhash/xxhash.h
+
