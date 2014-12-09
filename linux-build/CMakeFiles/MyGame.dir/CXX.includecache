@@ -2394,6 +2394,20 @@ CCGL.h
 base/CCPlatformMacros.h
 ../cocos2d/cocos/renderer/base/CCPlatformMacros.h
 
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/AppDelegate.cpp
+AppDelegate.h
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/AppDelegate.h
+Quarantine.h
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/Quarantine.h
+
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/AppDelegate.h
+cocos2d.h
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/cocos2d.h
+
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/Human.cpp
+Human.h
+/home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/Human.h
+
 /home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/Human.h
 cocos2d.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/Classes/cocos2d.h

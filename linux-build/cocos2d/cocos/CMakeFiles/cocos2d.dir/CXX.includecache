@@ -3430,10 +3430,6 @@ platform/CCFileUtils.h
 edtaa3func.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/2d/edtaa3func.h
 
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/2d/CCGLBufferedNode.cpp
-CCGLBufferedNode.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/2d/CCGLBufferedNode.h
-
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/2d/CCGLBufferedNode.h
 CCGL.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/2d/CCGL.h
@@ -5018,14 +5014,6 @@ atitc.h
 CCStdC.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/CCStdC.h
 
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/base64.cpp
-stdio.h
--
-stdlib.h
--
-base/base64.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/base/base64.h
-
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/ccCArray.cpp
 base/ccCArray.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/base/ccCArray.h
@@ -5081,12 +5069,6 @@ platform/CCFileUtils.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/platform/CCFileUtils.h
 CCGLView.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/CCGLView.h
-
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/etc1.cpp
-base/etc1.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/base/etc1.h
-string.h
--
 
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/base/s3tc.cpp
 s3tc.h
@@ -6551,32 +6533,6 @@ base/CCDirector.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/ui/base/CCDirector.h
 base/CCEventFocus.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/ui/base/CCEventFocus.h
-
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/ConvertUTF/ConvertUTF.h
-stddef.h
--
-vector
--
-string
--
-
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp
-ConvertUTF.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/ConvertUTF/ConvertUTF.h
-string
--
-vector
--
-stdint.h
--
-assert.h
--
-memory.h
--
-
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/external/edtaa3func/edtaa3func.cpp
-math.h
--
 
 /usr/include/GLFW/glfw3.h
 stddef.h

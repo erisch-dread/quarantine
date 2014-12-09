@@ -2418,18 +2418,6 @@ fmod.h
 
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/AudioPlayer.h
 
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/FmodAudioPlayer.cpp
-FmodAudioPlayer.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/FmodAudioPlayer.h
-stdio.h
--
-stdlib.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/stdlib.h
-assert.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/assert.h
-string.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/string.h
-
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/FmodAudioPlayer.h
 fmod.hpp
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/audio/linux/fmod.hpp

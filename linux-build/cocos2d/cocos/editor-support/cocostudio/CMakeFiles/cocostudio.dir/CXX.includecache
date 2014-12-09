@@ -3640,10 +3640,6 @@ cocostudio/CCDataReaderHelper.h
 cocostudio/CCSpriteFrameCacheHelper.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/cocostudio/CCSpriteFrameCacheHelper.h
 
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CCArmatureDefine.cpp
-cocostudio/CCArmatureDefine.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/cocostudio/CCArmatureDefine.h
-
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CCBatchNode.cpp
 cocostudio/CCBatchNode.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/cocostudio/CCBatchNode.h
@@ -3901,26 +3897,6 @@ cocostudio/CCTransformHelp.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CCUtilMath.cpp
 cocostudio/CCUtilMath.h
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/cocostudio/CCUtilMath.h
-
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CocoLoader.cpp
-CocoLoader.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CocoLoader.h
-zlib.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/zlib.h
-
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CocoLoader.h
-stdio.h
--
-vector
--
-cstdio
--
-stdint.h
--
-json/rapidjson.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/json/rapidjson.h
-json/document.h
-/home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/json/document.h
 
 /home/erisch/Documents/programming/games/quarantine/Quarantine/cocos2d/cocos/editor-support/cocostudio/CocoStudio.h
 cocostudio/CCActionFrame.h

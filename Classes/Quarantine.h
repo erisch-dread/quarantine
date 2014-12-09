@@ -4,8 +4,10 @@
 #include "TiledGame.h"
 #include "Human.h"
 
-#define UPDATE_DELTA 	0.5
+#define UPDATE_DELTA 	0.1
 #define HUMAN_NUM	 	100
+#define HUMAN_VIEW_RAD	128
+#define SPRITE_SIZE		16
 
 class Quarantine : public cocos2d::Layer
 {
@@ -32,6 +34,7 @@ class Quarantine : public cocos2d::Layer
 
 		void					moveHuman(Human **man);
 		void 					moveHuman(Human *man, Human *otherMan);
+		bool					manOnManCollision(cocos2d::Point pos, Human **man, int index);
 
 		cocos2d::Point			getZombieAvgPos();
 		cocos2d::Point			getNearestHumanPos(cocos2d::Point source);

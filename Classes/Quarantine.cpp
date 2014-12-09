@@ -60,14 +60,14 @@ bool Quarantine::init()
 }
 
 void Quarantine::update(float delta){
-    updateDelta += delta;
+    //updateDelta += delta;
 
-    if(updateDelta >= UPDATE_DELTA){
+    //if(updateDelta >= UPDATE_DELTA){
         moveHuman(_humans);
         //moveHuman(_infected, _human);
 
-        updateDelta = 0;
-    }
+//        updateDelta = 0;
+  //  }
 }
 
 void Quarantine::moveHuman(Human **man){
@@ -75,16 +75,48 @@ void Quarantine::moveHuman(Human **man){
     for(int i=0; i<HUMAN_NUM; i++){
         cocos2d::Point zombiesPos = getNearestZombiePos(man[i]->getPosition());
         cocos2d::Point pos;
+        bool           collides = false;
+
         if(!man[i]->isInfected()){
             //cocos2d::Point zombiesPos = getNearestZombiePos(man[i]->getPosition());
             //if(!(*zombieDist < 64))
             //if !getdistance
-            if()
-            pos = man[i]->moveFrom(zombiesPos);
+            if(man[i]->getPosition().getDistance(zombiesPos) < HUMAN_VIEW_RAD)
+                pos = man[i]->moveFrom(zombiesPos);
+            else
+                pos = man[i]->wander();
         }
         else {
             pos = man[i]->moveToward(getNearestHumanPos(man[i]->getPosition()));
         }
+
+        //check if collides with sprites.
+        /*for(int j=0; j<HUMAN_NUM; j++){
+            if(!(j == i)){
+                //collides = manOnManCollision(man, j);
+                //cocos2d::Rect box = man[j]->getBoundingBox();
+                //box.setRect()
+                cocos2d::Point manPt = man[j]->getPosition();
+                cocos2d::Size manSize = man[j]->getContentSize();
+                //cocos2d::Rect box = cocos2d::Rect(manPt.x, manPt.y, SPRITE_SIZE, SPRITE_SIZE);
+    //CP
+                cocos2d::Rect box = cocos2d::Rect(manPt.x - (manSize.width/2), manPt.y - (manSize.height/2), manSize.width, manSize.height);
+
+                cocos2d::Rect posBox = cocos2d::Rect(pos.x, pos.y, SPRITE_SIZE, SPRITE_SIZE);
+                collides = box.intersectsRect(posBox);
+                //CCLOG("pos %f, %f boxMax %f, %f", box.getMinX(), box.getMinY(), box.getMaxX(), box.getMaxY());
+                //CCLOG("origin %f, %f", box.origin.x, box.origin.y);
+                if(collides){
+                    //CCLOG("ypu");
+                    break;
+                }
+            }
+        }
+        if(collides){
+            CCLOG("break");
+            break;
+        }*/
+
         if(!_world->collidable(pos)){
             man[i]->setPosition(pos);
         }
@@ -149,6 +181,15 @@ void Quarantine::moveHuman(Human *man, Human *otherMan){
                 man->setPosition(tryDown);
         }   
     } 
+}
+
+bool Quarantine::manOnManCollision(cocos2d::Point pos, Human **man, int index){
+    for(int i=index+1; i<HUMAN_NUM; i++){
+        if(man[index]->collidesWith(man[i])){
+            return true;
+        }
+    }
+    return false;
 }
 
 cocos2d::Point Quarantine::getZombieAvgPos(){
